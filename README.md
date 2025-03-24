@@ -30,4 +30,3 @@ The score is updated every time the player makes a move, and it is displayed in 
 
 End-of-Game Message:
 Once the player finishes all the levels, a page displays a message of congratulations along with the total score achieved. This offers a sense of accomplishment.
-
