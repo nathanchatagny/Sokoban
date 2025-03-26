@@ -1,32 +1,43 @@
 # Sokoban Game Improvement: Level Progression & Scoring System
 
-Overview:
-In this improvement of the Sokoban game, I have added two key features to enhance the gameplay experience:
+Aperçu
 
-Level Progression:
-The game now advances to the next level upon completing the current level. Each level is followed by a transition that shows the player’s progress.
+Dans cette amélioration du jeu Sokoban, deux fonctionnalités clés ont été ajoutées pour améliorer l'expérience de jeu :
 
-Scoring System:
-The game includes a points system, where each move subtracts points from a base score of 10,000. The player can see their remaining points as they play, creating a challenge to complete levels in fewer moves. At the end of the game, the final score is displayed on a congratulatory page.
+Progression des Niveaux
+Le jeu passe maintenant au niveau suivant une fois le niveau actuel terminé. Chaque niveau est suivi d'une transition montrant la progression du joueur.
 
-Features Added:
-Level Progression:
-After completing a level, the game automatically loads the next level. If all levels are completed, a congratulatory message is displayed, including the player’s final score.
 
-Scoring System:
-Each move in the game deducts 10 points from the starting score of 10,000. This encourages players to complete levels efficiently. The score is updated in real time, visible on the screen.
+Système de Scoring
+Le jeu inclut un système de points où chaque mouvement soustrait des points d'un score de base de 10 000. Le joueur peut voir ses points restants pendant qu'il joue, ce qui crée un défi de complétion des niveaux avec le moins de mouvements possible. À la fin du jeu, le score final est affiché sur une page de félicitations.
 
-Completion Screen:
-Once all levels are completed, the game displays a final screen congratulating the player and showing their score.
+Fonctionnalités Ajoutées
 
-Approach and Design:
-Level Progression:
+Progression des Niveaux
+Après avoir terminé un niveau, le jeu charge automatiquement le niveau suivant.
+Si tous les niveaux sont complétés, un message de félicitations est affiché, incluant le score final du joueur.
 
-At the end of each level, the game checks if there are more levels. If there are, the game transitions to the next level automatically. If the player has completed all levels, a congratulatory message is shown.
+Système de Scoring
+Chaque mouvement dans le jeu soustrait 10 points du score initial de 10 000.
+Cela encourage les joueurs à compléter les niveaux efficacement.
+Le score est mis à jour en temps réel et visible à l'écran.
 
-Scoring System:
-The game starts with a score of 10,000. Each time the player makes a move, 10 points are subtracted from the score. The score is displayed on the screen, and the player can see how efficient they are in solving the levels.
-The score is updated every time the player makes a move, and it is displayed in real-time.
+Écran de Complétion
+Une fois tous les niveaux terminés, le jeu affiche un écran final félicitant le joueur et montrant son score.
 
-End-of-Game Message:
-Once the player finishes all the levels, a page displays a message of congratulations along with the total score achieved. This offers a sense of accomplishment.
+Approche et Conception
+
+Progression des Niveaux
+À la fin de chaque niveau, le jeu vérifie s'il reste des niveaux.
+S'il y a des niveaux suivants, le jeu passe automatiquement au niveau suivant.
+Si le joueur a complété tous les niveaux, un message de félicitations est affiché.
+
+Système de Scoring
+Le jeu commence avec un score de 10 000.
+À chaque mouvement du joueur, 10 points sont soustraits du score.
+Le score est affiché à l'écran, permettant au joueur de voir son efficacité à résoudre les niveaux.
+Le score est mis à jour et affiché en temps réel à chaque mouvement.
+
+Message de Fin de Jeu
+Une fois que le joueur termine tous les niveaux, une page affiche un message de félicitations ainsi que le score total obtenu.
+Cela offre un sentiment d'accomplissement.
