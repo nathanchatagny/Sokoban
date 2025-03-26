@@ -7,3 +7,6 @@ Le jeu passe maintenant au niveau suivant une fois le niveau actuel terminé. Ch
 
 Système de Scoring
 Le jeu inclut un système de points où chaque mouvement soustrait 10 points du score de base de 10 000. À la fin du jeu, le score final est affiché sur une page de félicitations.
+
+Assets
+J'ai également changé le pack assets pour donner un côté plus fun au jeu.
